@@ -1,0 +1,93 @@
+[02-Oct-2021 13:35:13 UTC] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/wpoleimz/public_html/Limitati/index.php on line 5
+[18-Oct-2021 22:24:41 UTC] PHP Parse error:  syntax error, unexpected '$update' (T_VARIABLE) in /home/wpoleimz/public_html/Limitati/index.php on line 8
+[18-Oct-2021 22:28:44 UTC] {"update_id":699487561,
+"message":{"message_id":6789,"from":{"id":83356786,"is_bot":false,"first_name":"Luca","username":"The_Luke","language_code":"it"},"chat":{"id":83356786,"first_name":"Luca","username":"The_Luke","type":"private"},"date":1634596124,"text":"/start","entities":[{"offset":0,"length":6,"type":"bot_command"}]}}
+[18-Oct-2021 22:29:28 UTC] PHP Warning:  error_log() expects parameter 1 to be string, array given in /home/wpoleimz/public_html/Limitati/index.php on line 9
+[18-Oct-2021 22:30:24 UTC] Array
+(
+    [update_id] => 699487563
+    [message] => Array
+        (
+            [message_id] => 6791
+            [from] => Array
+                (
+                    [id] => 83356786
+                    [is_bot] => 
+                    [first_name] => Luca
+                    [username] => The_Luke
+                    [language_code] => it
+                )
+
+            [chat] => Array
+                (
+                    [id] => 83356786
+                    [first_name] => Luca
+                    [username] => The_Luke
+                    [type] => private
+                )
+
+            [date] => 1634596223
+            [text] => /start
+            [entities] => Array
+                (
+                    [0] => Array
+                        (
+                            [offset] => 0
+                            [length] => 6
+                            [type] => bot_command
+                        )
+
+                )
+
+        )
+
+)
+
+[18-Oct-2021 22:33:01 UTC] PHP Warning:  error_log() expects parameter 1 to be string, array given in /home/wpoleimz/public_html/Limitati/index.php on line 17
+[18-Oct-2021 22:33:01 UTC] PHP Warning:  error_log() expects parameter 1 to be string, array given in /home/wpoleimz/public_html/Limitati/index.php on line 18
+[18-Oct-2021 22:33:01 UTC] /start
+[18-Oct-2021 22:33:01 UTC] 83356786
+[18-Oct-2021 22:33:01 UTC] 83356786
+[18-Oct-2021 22:33:50 UTC] Entro
+[18-Oct-2021 22:34:08 UTC] Entro
+[18-Oct-2021 22:35:47 UTC] {"ok":false,"error_code":404,"description":"Not Found"}
+[18-Oct-2021 22:38:34 UTC] 
+[18-Oct-2021 22:38:34 UTC] {"ok":false,"error_code":404,"description":"Not Found"}
+[18-Oct-2021 22:39:43 UTC] 
+[18-Oct-2021 22:39:43 UTC] {"ok":false,"error_code":404,"description":"Not Found"}
+[18-Oct-2021 22:40:16 UTC] 
+[18-Oct-2021 22:40:16 UTC] {"ok":false,"error_code":404,"description":"Not Found"}
+[18-Oct-2021 22:49:53 UTC] 430290096:AAGbH8Y304hLoPmPAtScR9yamCWxZfvDI_E
+[18-Oct-2021 22:49:53 UTC] {"ok":true,"result":{"message_id":6800,"from":{"id":430290096,"is_bot":true,"first_name":"Limitati Luke BOT","username":"The_LukeBot"},"chat":{"id":83356786,"first_name":"Luca","username":"The_Luke","type":"private"},"date":1634597393,"text":"83356786"}}
+[18-Oct-2021 22:52:10 UTC] PHP Warning:  file_get_contents(chat.txt): failed to open stream: No such file or directory in /home/wpoleimz/public_html/Limitati/index.php on line 202
+[18-Oct-2021 22:52:10 UTC] PHP Warning:  file_get_contents(message.txt): failed to open stream: No such file or directory in /home/wpoleimz/public_html/Limitati/index.php on line 204
+[18-Oct-2021 22:52:10 UTC] PHP Warning:  file_get_contents(time.txt): failed to open stream: No such file or directory in /home/wpoleimz/public_html/Limitati/index.php on line 207
+[18-Oct-2021 22:52:17 UTC] PHP Warning:  file_get_contents(chat.txt): failed to open stream: No such file or directory in /home/wpoleimz/public_html/Limitati/index.php on line 118
+[18-Oct-2021 22:52:17 UTC] PHP Warning:  file_get_contents(message.txt): failed to open stream: No such file or directory in /home/wpoleimz/public_html/Limitati/index.php on line 120
+[18-Oct-2021 22:52:17 UTC] PHP Warning:  file_get_contents(time.txt): failed to open stream: No such file or directory in /home/wpoleimz/public_html/Limitati/index.php on line 124
+[18-Oct-2021 22:52:17 UTC] PHP Warning:  file_get_contents(chat.txt): failed to open stream: No such file or directory in /home/wpoleimz/public_html/Limitati/index.php on line 173
+[18-Oct-2021 22:52:21 UTC] PHP Warning:  file_get_contents(chat.txt): failed to open stream: No such file or directory in /home/wpoleimz/public_html/Limitati/index.php on line 118
+[18-Oct-2021 22:52:21 UTC] PHP Warning:  file_get_contents(message.txt): failed to open stream: No such file or directory in /home/wpoleimz/public_html/Limitati/index.php on line 120
+[18-Oct-2021 22:52:21 UTC] PHP Warning:  file_get_contents(time.txt): failed to open stream: No such file or directory in /home/wpoleimz/public_html/Limitati/index.php on line 124
+[18-Oct-2021 22:52:21 UTC] PHP Warning:  file_get_contents(chat.txt): failed to open stream: No such file or directory in /home/wpoleimz/public_html/Limitati/index.php on line 173
+[18-Oct-2021 22:52:22 UTC] PHP Warning:  file_get_contents(chat.txt): failed to open stream: No such file or directory in /home/wpoleimz/public_html/Limitati/index.php on line 202
+[18-Oct-2021 22:52:22 UTC] PHP Warning:  file_get_contents(message.txt): failed to open stream: No such file or directory in /home/wpoleimz/public_html/Limitati/index.php on line 204
+[18-Oct-2021 22:52:22 UTC] PHP Warning:  file_get_contents(time.txt): failed to open stream: No such file or directory in /home/wpoleimz/public_html/Limitati/index.php on line 207
+[18-Oct-2021 22:52:27 UTC] PHP Warning:  file_get_contents(chat.txt): failed to open stream: No such file or directory in /home/wpoleimz/public_html/Limitati/index.php on line 79
+[18-Oct-2021 22:52:29 UTC] PHP Warning:  file_get_contents(chat.txt): failed to open stream: No such file or directory in /home/wpoleimz/public_html/Limitati/index.php on line 202
+[18-Oct-2021 22:52:29 UTC] PHP Warning:  file_get_contents(message.txt): failed to open stream: No such file or directory in /home/wpoleimz/public_html/Limitati/index.php on line 204
+[18-Oct-2021 22:52:29 UTC] PHP Warning:  file_get_contents(time.txt): failed to open stream: No such file or directory in /home/wpoleimz/public_html/Limitati/index.php on line 207
+[18-Oct-2021 22:55:55 UTC] PHP Warning:  A non-numeric value encountered in /home/wpoleimz/public_html/Limitati/index.php on line 209
+[18-Oct-2021 22:56:03 UTC] PHP Warning:  A non-numeric value encountered in /home/wpoleimz/public_html/Limitati/index.php on line 209
+[18-Oct-2021 22:56:06 UTC] PHP Warning:  A non-numeric value encountered in /home/wpoleimz/public_html/Limitati/index.php on line 126
+[18-Oct-2021 22:57:17 UTC] PHP Warning:  A non-numeric value encountered in /home/wpoleimz/public_html/Limitati/index.php on line 209
+[18-Oct-2021 22:57:40 UTC] PHP Warning:  A non-numeric value encountered in /home/wpoleimz/public_html/Limitati/index.php on line 209
+[18-Oct-2021 22:57:46 UTC] PHP Warning:  A non-numeric value encountered in /home/wpoleimz/public_html/Limitati/index.php on line 209
+[18-Oct-2021 22:58:58 UTC] PHP Warning:  A non-numeric value encountered in /home/wpoleimz/public_html/Limitati/index.php on line 209
+[18-Oct-2021 22:59:05 UTC] PHP Warning:  A non-numeric value encountered in /home/wpoleimz/public_html/Limitati/index.php on line 126
+[18-Oct-2021 23:00:28 UTC] PHP Warning:  A non-numeric value encountered in /home/wpoleimz/public_html/Limitati/index.php on line 209
+[19-Oct-2021 06:51:00 UTC] PHP Warning:  A non-numeric value encountered in /home/wpoleimz/public_html/Limitati/index.php on line 209
+[19-Oct-2021 06:52:42 UTC] PHP Warning:  A non-numeric value encountered in /home/wpoleimz/public_html/Limitati/index.php on line 209
+[19-Oct-2021 07:18:59 UTC] PHP Warning:  A non-numeric value encountered in /home/wpoleimz/public_html/Limitati/index.php on line 126
+[19-Oct-2021 07:19:10 UTC] PHP Warning:  A non-numeric value encountered in /home/wpoleimz/public_html/Limitati/index.php on line 126
+[19-Oct-2021 07:19:17 UTC] PHP Warning:  A non-numeric value encountered in /home/wpoleimz/public_html/Limitati/index.php on line 126
