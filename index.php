@@ -1,7 +1,7 @@
 <?php
  
     //VARIABILI
-    $token = "430290096:AAGbH8Y304hLoPmPAtScR9yamCWxZfvDI_E";
+    $token = "";
     $data = file_get_contents("php://input");
     /*Decodifica il json*/
     $update = json_decode($data, true);
